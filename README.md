@@ -128,8 +128,8 @@ export CGO_LDFLAGS="-L $SAPNWRFC_HOME/lib"
 export CGO_CFLAGS_ALLOW=.*
 export CGO_LDFLAGS_ALLOW=.*
 go get github.com/stretchr/testify
-go get github.com/sap/gorfc
-cd $GOPATH/src/github.com/sap/gorfc/gorfc
+go get github.com/THM-MA/gorfc
+cd $GOPATH/src/github.com/THM-MA/gorfc/gorfc
 go build
 go install
 ```
@@ -137,7 +137,7 @@ go install
 To test the installation, run the example provided:
 
 ```bash
-cd $GOPATH/src/github.com/sap/gorfc/example
+cd $GOPATH/src/github.com/THM-MA/gorfc/example
 go run hello_gorfc.go
 ```
 
@@ -152,7 +152,7 @@ package main
 
 import (
     "fmt"
-    "github.com/sap/gorfc/gorfc"
+    "github.com/THM-MA/gorfc/gorfc"
     "github.com/stretchr/testify/assert"
     "reflect"
     "testing"
