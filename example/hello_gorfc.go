@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/THM-MA/gorfc/gorfc"
+	"github.com/thm-ma/gorfc/gorfc"
 )
 
 func abapSystem() gorfc.ConnectionParameters {

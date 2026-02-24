@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/THM-MA/gorfc/gorfc/testutils"
+	"github.com/thm-ma/gorfc/gorfc/testutils"
 )
 
 //

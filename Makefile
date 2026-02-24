@@ -1,4 +1,4 @@
 # Run go fmt against code
 fmt:
 	go fmt ./...
-	goimports -w -local github.com/THM-MA/gorfc .
+	goimports -w -local github.com/thm-ma/gorfc .
